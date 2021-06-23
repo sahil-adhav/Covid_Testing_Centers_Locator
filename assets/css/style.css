@@ -1,0 +1,260 @@
+/* General */
+body {
+    background-color: #eee;
+}
+
+.header {
+    color: grey;
+}
+
+.whitebg {
+    background-color: white;
+}
+
+a, .grayTxt {
+    color: #555;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#8a2be2;
+}
+
+.spacer {
+    margin-bottom: 50px;
+}
+
+/* Navbar */
+#pagetitle {
+    color: white;
+}
+
+#navbg {
+    background:linear-gradient(#2c1567, #3d3bbb);
+    box-shadow: 0px 3px 10px #b2b2b2;
+}
+
+/* Locations Section */
+
+#stateSelection {
+    height: 30px;
+    width: 180px;
+    font-size: 18px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+#stateSelection:focus {
+    outline: none;
+}
+
+option {
+    height: 20px;
+    width: 100%;
+}
+
+#locationNav {
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.uk-panel-scrollable {
+    height: 400px;
+}
+
+#locationGrid {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#selectForm {
+    height: 200px;
+    background-color: #eee;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+#mapHolder {
+    padding-left: 0px;
+}
+
+
+/* Stats Section */
+#statsNav {
+    margin-left: auto;
+}
+
+#statsParent {
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+#statsInfo {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#statsTitle {
+    color: white;
+    background: #3d3bbb;
+    border-radius: 5px;
+}
+
+#statsInfo p {
+}
+
+#chartParent {
+    padding-left: 0px;
+}
+
+#chart {
+    height: 100%;
+}
+
+#myChart {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.minContent {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* padding-top: 2px; */
+    /* padding-bottom: 2px; */
+    padding: 2px 5px;
+    /* padding-left: 4px; */
+    /* padding-right: 4px; */
+}
+
+.confirmed {
+    color: black;
+    /* font-weight: bold; */
+}
+
+.deaths {
+    background-color: rgb(255, 97, 97);
+}
+
+.recovered {
+    background-color: rgb(52, 132, 238);
+}
+
+.active {
+    background-color: #ffae42;
+}
+
+/* General Info Page */
+
+.bluePurpleTxt {
+    color:#3d3bbb;
+}
+
+.genInfo {
+    margin-left: 15px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h4.genInfo {
+    color: white;
+    padding: 5px;
+    max-width: 550px;
+}
+
+#emergencyTitle {
+    background: red;
+}
+
+#symptomsTitle {
+    background:#ffae42;
+}
+
+#protectTitle {
+    background:#196751;
+}
+
+#h2 {
+    margin-top: 10px;
+}
+
+/* Resources section */
+.externalResources, #Stats {
+    /* background:linear-gradient(#2c1567, #3d3bbb); */
+    background: #3d3bbb;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+#additionalRes{
+    background: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#resourceTitle {
+     color: white;
+}
+
+.resourcesCrd {
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.cdcCard {
+    border-left: 5px solid #0339f8;
+}
+
+.whoCard {
+    border-left: 5px solid #8a2be2;
+}
+
+.uk-card-title {
+    font: white;
+}
+
+/* Footer */
+footer {
+    background: #444;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.white-text {
+    color: #d8d8d8;
+    margin-left: 300px;
+}
+
+.white-text:hover {
+    color: white;
+}
+
+.developer{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.developer:hover{
+    color: white;
+}
+
+.margin{
+  margin-left: 40px;
+}
+
+.copy{
+  padding: 20px;
+  
+}
